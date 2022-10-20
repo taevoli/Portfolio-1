@@ -1,0 +1,197 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width" />
+    <title>replit</title>
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-Zenh87qX5JnK2Jl0vWa8Ck2rdkQ2Bzep5IDxbcnCeuOxjzrPF/et3URy9Bv1WTRi"
+      crossorigin="anonymous"
+    />
+    <link href="style.css" rel="stylesheet" type="text/css" />
+  </head>
+
+  <body>
+    <nav class="navbar navbar-expand-lg" style="background-color: #649274">
+      <div class="container-fluid">
+        <a class="navbar-brand" href="#">NooHeat</a>
+        <button
+          class="navbar-toggler"
+          type="button"
+          data-bs-toggle="collapse"
+          data-bs-target="#navbarText"
+          aria-controls="navbarText"
+          aria-expanded="false"
+          aria-label="Toggle navigation"
+        >
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarText">
+          <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+            <li class="nav-item">
+              <a class="nav-link active font" aria-current="page" href="#"
+                >HOME</a
+              >
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#">Poster</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#">Wear</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#">PhoneCase</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#">About</a>
+            </li>
+          </ul>
+          <!--1. 바로 밑 컨테이너는 navbar에서 중간공간 비우는 법을 몰라 임시방편으로 해놓음(내주문, 장바구니, 주문 만드려고..)
+            2. basket, order등 한글로 바꿀 시, 형식이 깨지는데 이유 잘 모르겠음 -->
+          <div class="container"></div>
+
+          <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+            <li class="nav-item">
+              <a class="nav-link" href="#">Login</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#">Basket</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#">Order</a>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </nav>
+
+    <div
+      id="carouselExampleControls"
+      class="carousel slide"
+      data-bs-ride="carousel"
+    >
+      <div class="carousel-inner">
+        <div class="carousel-item active">
+          <img
+            src="https://www.tounou.co.kr/web/upload/NNEditor/20220920/945a48c4c948b94f8f8cf0fb653fc6ed.jpg"
+            class="d-block w-100"
+            alt="작업중"
+          />
+        </div>
+        <div class="carousel-item">
+          <img
+            src="https://www.tounou.co.kr/web/upload/NNEditor/20220920/95e264907a2c6eebe70f97f1af6c0242.jpg"
+            class="d-block w-100"
+            alt="작업중"
+          />
+        </div>
+        <!--   <div class="carousel-item ">
+        <img src="https://www.tounou.co.kr/web/product/big/202110/a911ecca85dfb76c4a2e8877dc92c53c.jpg" class="d-block w-100" alt="작업중" style="width:100%; height: auto;">
+      </div>     크기조절 실패로 2개만 함-->
+      </div>
+      <button
+        class="carousel-control-prev"
+        type="button"
+        data-bs-target="#carouselExampleControls"
+        data-bs-slide="prev"
+      >
+        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+        <span class="visually-hidden">Previous</span>
+      </button>
+      <button
+        class="carousel-control-next"
+        type="button"
+        data-bs-target="#carouselExampleControls"
+        data-bs-slide="next"
+      >
+        <span class="carousel-control-next-icon" aria-hidden="true"></span>
+        <span class="visually-hidden">Next</span>
+      </button>
+    </div>
+
+    <div class="container mt-5 mb-5">
+      <div class="row">
+        <div class="col-md-4 col-sm-12">
+          <div class="card" style="width: 18rem">
+            <img
+              src="https://tounou.co.kr/web/product/medium/202210/5eae8604370fe0e93153101e54e9a5ee.jpg"
+              class="card-img-top"
+              alt="..."
+            />
+            <div class="card-body">
+              <h5 class="card-title text-center">PhoneCase</h5>
+              <a href="#" class="btn btn-primary">Purchase</a>
+            </div>
+          </div>
+        </div>
+
+        <div class="col-md-4 col-sm-12">
+          <div class="card" style="width: 18rem">
+            <img
+              src="https://tounou.co.kr/web/product/medium/202210/4a6f85ebd7624fbd68bea65be147f61e.jpg"
+              class="card-img-top"
+              alt="..."
+            />
+            <div class="card-body">
+              <h5 class="card-title text-center">Poster</h5>
+              <a href="#" class="btn btn-primary">Purchase</a>
+            </div>
+          </div>
+        </div>
+
+        <div class="col-md-4 col-sm-12">
+          <div class="card" style="width: 18rem">
+            <img
+              src="https://tounou.co.kr/web/product/medium/202208/12f818493e1b6515c049b9a152736fad.jpg"
+              class="card-img-top"
+              alt="..."
+            />
+            <div class="card-body">
+              <h5 class="card-title text-center">White T-shirt</h5>
+              <a href="#" class="btn btn-primary center">Purchase</a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <footer>
+      <div class="container">
+        <div class="pb-3 pt-3 first-line font">NooHeat</div>
+
+        <div class="container">
+          <div class="row">
+            <div class="col-4">
+              <div class="ps-5 font second-line seller-information">
+                Seller Information
+              </div>
+              <div>Address : GyeongBuk GyeongJu</div>
+              <div>Phone : 010-1234-5678</div>
+              <div>E-mail : skyto8426@naver.com</div>
+            </div>
+
+            <div class="col-4 pt-4 click">
+              <div><a href="#">Contact Us</a></div>
+              <div><a href="#">Apps</a></div>
+              <div><a href="#">Follow Us</a></div>
+            </div>
+
+            <div class="col-4 pt-4 pb-4 click">
+              <div><a href="#">Legal Notice</a></div>
+              <div><a href="#">Careers</a></div>
+              <div><a href="#">Sitemap</a></div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </footer>
+
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-OERcA2EqjJCMA+/3y+gxIOqMEjwtxJY7qPCqsdltbNJuaOe923+mo//f6V8Qbsw3"
+      crossorigin="anonymous"
+    ></script>
+  </body>
+</html>

@@ -1,0 +1,45 @@
+.nav-link{
+  color: black;
+}
+.navbar-brand{
+  font-size: 30px;
+  font-weight: bold;
+}
+.container-fluid{
+  background-color: #649274;
+}
+.font{
+  font-weight: bold;
+}
+.btn{
+  background-color: black;
+  align-items:center ;
+}
+footer{
+  background-color: #649274;
+}
+footer a{
+  color: black;
+  text-decoration: none;
+}
+.first-line{
+  border-bottom:2px solid black ;
+}
+.second-line{
+  text-decoration-line: underline;
+}
+li{
+  list-style: none;
+}
+
+@media screen and (max-width:48rem){
+  .click{
+    margin-top: 25px;
+  }
+  .seller-information{
+    margin-left:-3rem ; 
+  } /*임의지정*/
+  /*.number{
+    display: flex;
+    flex-direction: row;
+  }     --> 폰번호 정렬실패*/
